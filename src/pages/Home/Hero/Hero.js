@@ -3,7 +3,7 @@ import Button from "../../../components/Button/Button";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto h-[500px] my-6 px-2 md:px-0">
+    <section className="container mx-auto h-[500px] my-6 px-2 md:px-0">
       <div
         className="hero h-full rounded-lg"
         style={{
@@ -25,19 +25,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* <div className="hero-content text-center text-white">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Travel Discover</h1>
-            <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
-            <Button title={"Explore Places"} />
-          </div>
-        </div> */}
       </div>
-    </div>
+    </section>
   );
 };
 
