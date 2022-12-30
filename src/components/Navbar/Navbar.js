@@ -6,7 +6,7 @@ import menuItems from "./../../routes/menuItems";
 
 const Navbar = () => {
   return (
-    <nav className="bg-base-100 py-3 shadow">
+    <nav className="bg-base-100 py-3">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
